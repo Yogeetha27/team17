@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  .header {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.15)),
+      url("./photo25.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #logo1{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+
+  #close-btn{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .menu-bar{
+   
+    text-align:center;
+  }
+  .menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+    color:#fff;
+  }
+  .menu-bar ul li{
+    width:160px;
+    margin:15px;
+    padding:15px;
+
+  }
+  .menu-bar ul li a
+  {
+    text-decoration:none;
+    color:#fff;
+    font-size: large;
+   
+  }
+  .active, .menu-bar ul li:hover{
+    background:#2bab0d;
+    border-radius:3px;
+  }
+  .menu-bar .fa{
+    margin-right:1px;
+  }
+  .sub-menu-1
+  {
+    display:none;
+  }
+  .menu-bar img{
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+  }
+  .menu-bar ul li:hover .sub-menu-1
+  {
+    display:block;
+    position:absolute;
+    background:rgb(0,100,0);
+   /* background: plum;*/
+    margin-top:15px;
+    margin-left:-15px;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin:10px;
+
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+    text-align:left;
+    
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom:none;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:#b2ff00;
+  }
+  .main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  section .btnone {
+    background: #00b894;
+    background: #fff;
+    color: #000;
+  }
+  
+  .btnone:hover {
+    background: #00b894;
+    color: white;
+  }
+  
+  section .btntwo {
+    background: #00b894;
+    color: white;
+  }
+  
+  .btntwo:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Hospital services";
+    }
+    25% {
+      content: "Institutions";
+    }
+    50% {
+      content: "Restaurants";
+    }
+    75% {
+      content: "Banks";
+    }
+    100% {
+      content: "Service Centers";
+    }
+  }
+  .header1{
+    min-height:100vh;
+    width:100%;
+    /*background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('photo24.jpg');*/
+    /*background-image: url('./photo24.jpg');*/
+    background-color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.service{
+    width: 98%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.service_col{
+  flex-basis: 19%;
+  background: #add3be;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 10px 1px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  box-shadow: 3px 4px whitesmoke;
+}
+h4{
+  color: #000;
+}
+.service_col p{
+color: #000;
+}
+.service_col:hover{
+  box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.2);
+}
+
+.campus{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.campus-col img{
+    width: 100%;
+    display:block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgb(92, 189, 162);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+p{
+  font-size: 3px;
+  font-weight:lighter;
+  line-height: 22px;
+  padding: 10px;
+}
+#in_p{
+  font-size: small;
+  font-weight: lighter;
+}
+#main_heading{
+  color: darkslategray;
+}
+#p1{
+  color: purple;
+}
+#h22{
+  color: blue;
+}
+.bot a{
+  display: inline-block;
+  color: #fff;
+  background-color: #2196f3;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-top: 70px;
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1000px;
+  margin-top: 150px; 
+}
+.bot a:hover{
+  box-shadow: 0 5px 5px black;
+}
+#close-btn{
+  display: none;
+}
+
+@media(min-width: 810px){
+  .menu-bar ul{
+    display: inline-flex;
+    flex-direction: row;
+    text-align:center;
+  }
+}
+
+
+@media(max-width: 800px) {
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-bar img{
+    width: 20px;
+    margin: 0;
+  }
+  .menu-bar ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 75%;
+    height: 100vh;
+    display: none;
+  }
+
+  .menu-bar ul img{
+    margin: 10px 30px;
+  }
+ 
+  .header-content{
+    transform: translate(0,0)scale(0.8);
+  }
+
+  #close-btn{
+    display: inline;
+  }
+
+
+}

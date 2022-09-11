@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="./Team-17/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+
+<body>
+
+    <div class="header">
+
+
+        <div class="menu-bar">
+
+            <img src="./Team-17/logo.png" id="logo1" alt="logo">
+
+            <ul id="nav">
+                <img src="./Team-17/logo.png" id="close-btn" alt="logo">
+                <li class="active"><a href="./Team-17/index.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#info"><i class="fa fa-clone"></i>Services</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="./Team-17/hospital.html">Hospitals</a></li>
+                            <li><a href="./Team-17/edu.html">Educational Institutions</a></li>
+                            <li><a href="./Team-17/rest.html">Restaurants</a></li>
+                            <li><a href="./Team-17/bank.html">Banks</a></li>
+                            <li><a href="./Team-17/ser.html">Service Centres</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./Team-17/about.html"><i class="fa fa-user"></i>About Us</a></li>
+                <li><a href="./Team-17/contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+                <li><a href="./Team-17/feedback.html"><i class="fa fa-pencil-square-o"></i>Feedback</a></li>
+                <li><label for="name"></label><i class="fa fa-map-marker"></i><input type="text" size="10" height="5"
+                        id="name" placeholder="Ghatkesar"><i class="fa fa-search"></i></li>
+
+            </ul>
+        </div>
+
+        <div class="main">
+            <section class="header-content">
+                <h3>Welcome To Public Services</h3>
+                <h1>DO COME & VISIT <span class="change_content"> </span> <span style="margin-top: -10px;"> </span>
+                </h1>
+                <p>"We rise by lifting others"</p>
+                <a href="#info" class="btnone">learn more</a>
+                <a href="./Team-17/signup.html" class="btntwo">signup here</a>
+                <div class="bot">
+                    <a href="./Team-17/chat.html"><i class="fa fa-commenting" id="cb">Chat</i></a>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+    </div>
+    <section class="header1" id="info">
+        <section class="service">
+            <h2 id="main_heading">Services we offer</h2>
+            <br>
+            <p id="p1">"The end of all knowledge should be service to others"</p>
+
+
+            <div class="row">
+                <div class="service_col"><a href="./Team-17/rest.html">
+                        <h4 style="font-size: 30px;">Restaurants</h4>
+                        <p id="in_p">A recipe has no soul,a cook can bring soul to the recipe</p>
+                    </a>
+                </div>
+
+                <div class="service_col"><a href="./Team-17/edu.html">
+                        <h4 style="font-size: 30px;">Institutions</h4>
+
+                        <p id="in_p">Education is a passport to the future ,for tomorrow belongs to those who prepare
+                            for it
+                            today </p>
+                    </a>
+                </div>
+                <div class="service_col"><a href="./Team-17/bank.html">
+                        <h4 style="font-size: 30px;">Banks</h4>
+                        <!-- <p>Information about hospital...........................</p> -->
+                        <p id="in_p">Banking is very good business if you don't do anything dumb</p>
+                    </a>
+                </div>
+
+                    <div class="service_col"><a href="./Team-17/ser.html">
+                            <h4 style="font-size: 30px;">Service Centres</h4>
+                            <!-- <p>Information about hospital...........................</p> -->
+                            <p id="in_p">Service to humanity is service to Divinity.A satisfied customer is the best
+                                business
+                                strategy for all.</p>
+                        </a>
+                    </div>
+
+                    <div class="service_col"><a href="./Team-17/hospital.html">
+                            <h4 style="font-size: 30px;">Hospitals </h4>
+                            <!-- <p>Information about hospital...........................</p> -->
+                            <p id="in_p">Health is like money,we never have a true idea of it's value until we loose
+                                it.Health
+                                is Wealth</p>
+                        </a>
+                    </div>
+                </div>
+        </section>
+        <section class="campus">
+            <h2 id="h22">Gallery</h2>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="./Team-17/restaurant3.jpg" alt="Restaurant image here">
+                    <div class="layer">
+                        <h3>Restaurant</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./Team-17/tuit1.jpg" alt="Tuition image here">
+                    <div class="layer">
+                        <h3>Institution</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./Team-17/bank5.jpg" alt="Bank image here">
+                    <div class="layer">
+                        <h3>Bank</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./Team-17/car1.jpg" alt="Service image here">
+                    <div class="layer">
+                        <h3>Service <br> Centre</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="./Team-17/hospital1.jpg" alt="Hospital image here">
+                    <div class="layer">
+                        <h3>Hospital</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script>
+        document.getElementById("logo1").addEventListener('click', () => {
+            document.getElementById("nav").style.display = "flex";
+        });
+
+        document.getElementById("close-btn").addEventListener('click', () => {
+            document.getElementById("nav").style.display = "none";
+        });
+    </script>
+</body>
+
+</html>

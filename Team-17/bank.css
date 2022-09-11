@@ -1,0 +1,176 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+
+#logo1{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+}
+.menu-bar{
+  width: 100%;
+  height: 17vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+    url("./photo25.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+}
+.menu-bar ul{
+  display:inline-flex;
+  list-style:none;
+  color:#fff;
+}
+.menu-bar ul li{
+  width:120px;
+  margin:15px;
+  padding:15px;
+}
+.menu-bar ul li a
+{
+  text-decoration:none;
+  color:#fff;
+}
+.active, .menu-bar ul li:hover{
+  background:#2bab0d;
+  border-radius:3px;
+}
+.menu-bar .fa{
+  margin-right:8px;
+}
+.sub-menu-1
+{
+  display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+  display:block;
+  position:absolute;
+  background:rgb(0,100,0);
+  margin-top:15px;
+  margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+  display:block;
+  margin:10px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+  width:150px;
+  padding:10px;
+  border-bottom:1px dotted #fff;
+  background:transparent;
+  border-radius:0;
+  text-align:left;
+  
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+  border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+  color:#b2ff00;
+}
+.container{
+   
+  width: 650px;
+  padding: 15px;
+  padding-top: 5px;
+  margin-top: 47px;
+  margin-left:auto;
+  margin-right: 1rem;
+  justify-content: center;
+  display: block;
+  box-shadow: 5px 3px 10px #cfcccc;
+  border: none;
+  background-color:whitesmoke;
+  border-radius:1cm;
+}
+.bgi{
+
+  height: 120vh;
+  width: auto;
+  
+  padding-right: 30px;
+  padding-top: 10px;
+  background-image: url(https://img.freepik.com/premium-vector/banking-business-banner-finance-savings-silhouette-city-background_48369-11851.jpg?w=740);
+  background-position: center;
+  background-size: cover;
+}
+.bgi2{
+
+  height: 100vh;
+width: auto;
+
+padding-right: 30px;
+padding-top: 40px;
+background-image: url(https://img.freepik.com/premium-vector/banking-business-banner-finance-savings-silhouette-city-background_48369-11851.jpg?w=740);
+background-position: center;
+background-size: cover;
+  }
+  .bgi3{
+
+      height: 100vh;
+width: auto;
+
+padding-right: 30px;
+padding-top: 40px;
+background-image: url(https://img.freepik.com/premium-vector/banking-business-banner-finance-savings-silhouette-city-background_48369-11851.jpg?w=740);
+background-position: center;
+background-size: cover;
+    }
+    .bgi4{
+
+      height: 100vh;
+      width: auto;
+      
+      padding-right: 30px;
+      padding-top: 40px;
+      background-image: url(https://img.freepik.com/premium-vector/banking-business-banner-finance-savings-silhouette-city-background_48369-11851.jpg?w=740);
+      background-position: center;
+      background-size: cover;
+      }
+  
+.number{
+  list-style-type: none;
+}
+.title {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: right;
+  padding: left;
+  }
+  .content {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .container a{
+    display:inline-block;
+    color:#fff;
+    background-color:green;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  
+  
+  .container a:hover{
+    box-shadow:0 5px 5px rgb(0,0,0,0.2);
+
+  }
+  .container p{
+    font-size: 15px;
+    line-height: 28px;
+    height: 90px;
+    overflow: hidden;
+  }
+ .bgi .fa
+  {
+    margin-right: 8px;
+  }
